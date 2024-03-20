@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.showcase {
+    background: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* menu */
+
+    #menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    list-style-type: none; /* Quitamos las viñetas de la lista */
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    background-color:#f3fbfcc9;
+    display: inline; /* Ítems del menú en una línea horizontal */ 
+}
+   
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+    display:block;
+    color:#252424;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background:#88d6e2;
+   }
+
+   /* menu desplegable */
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:150px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
+
+
+   
+h1.titillium-web-regular-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+@font-face {
+    
+    font-family:  titillium-web-regular-italic;
+    src: url(../fonts/TitilliumWeb-Italic.ttf);
+}
+
+h2.homemade-apple-regular {
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: homemade-apple-regular;
+    src: url(../fonts/Homemade_Apple/);
+}
+
+.lead{
+    background-color: #fff;
+   
+}
+
+.pb-6 {
+    padding-bottom: 175px;
+}
+
+.showcase-img {
+    padding-top: 80px;
+}
+
+.showcase-img img {
+    height: 500px;
+}
+
